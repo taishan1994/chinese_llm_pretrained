@@ -1,7 +1,7 @@
 # chinese_llm_pretrained
 使用自己的tokenizer继续预训练大语言模型。为了方便起见，这里使用的模型为：IDEA-CCNL/Wenzhong2.0-GPT2-110M-BertTokenizer-chinese 。
 
-更多介绍请查看知乎：
+更多介绍请查看知乎：https://zhuanlan.zhihu.com/p/639404401
 
 # 依赖
 
