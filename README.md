@@ -1,0 +1,2 @@
+# chinese_llm_pretrained
+使用自己的tokenizer继续预训练大语言模型。
