@@ -117,7 +117,8 @@ class PeftSavingCallback(transformers.TrainerCallback):
     def on_train_end(self, args: TrainingArguments, state: TrainerState,
                      control: TrainerControl, **kwargs):
         """ Save final best model adapter """
-        self._save(kwargs['model'], state.best_model_checkpoint)
+        # self._save(kwargs['model'], state.best_model_checkpoint)
+        self._save(kwargs['model'], args.output_dir)
 
     def on_epoch_end(self, args: TrainingArguments, state: TrainerState,
                      control: TrainerControl, **kwargs):
